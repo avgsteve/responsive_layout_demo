@@ -30,13 +30,10 @@ body {
     /* height: 1379px; */
   }
 }
-
-
-
-
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   padding: 40px;
 }
 
@@ -53,6 +50,12 @@ body {
   }
 }
 
+.header_toggleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
 
 .brand-img {
   /* position: absolute; */
@@ -64,7 +67,8 @@ body {
 
 
 .header_clickBtnPrompt {
-  margin: 24px 0px 0px;
+  text-align: center;
+  margin: 24px 0px 10px;
   color: rgb(201, 201, 201);
 }
 
@@ -166,6 +170,17 @@ body {
   line-height: 67px;
 }
 
+@media only screen and (max-width: 400px) {
+
+  .title {
+    /* position: absolute; */
+    /* width: 458px; */
+    font-size: 32px;
+    line-height: unset;
+  }
+
+}
+
 .text {
   max-width: 394px;
   font-style: normal;
@@ -260,7 +275,6 @@ body {
 }
 
 .main-image-container img {
-  max-height: 411.15px;
   width: 100%
 }
 
