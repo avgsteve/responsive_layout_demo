@@ -74,9 +74,6 @@ body {
 
 /* Background Toggles */
 .background-toggles {
-  /* position: absolute;
-  right: 150px;
-  top: 70px; */
   display: flex;
   align-items: center;
 }
@@ -139,11 +136,6 @@ body {
 
 .main-image-container,
 .text-container {
-  /* position: absolute;
-  width: 535.72px;
-  height: 309.27px;
-  left: 683.28px;
-  top: 229.73px; */
   margin: 0px 10px 5px;
 
   flex: 1 0 50%;
@@ -157,13 +149,9 @@ body {
 
 
 .title {
-  /* position: absolute; */
-  /* width: 458px; */
   max-width: 458px;
   text-align: center;
   margin: 0 auto 10px;
-  /* left: 221px;
-  top: 236px; */
   font-style: normal;
   font-weight: 500;
   font-size: 64px;
@@ -173,8 +161,6 @@ body {
 @media only screen and (max-width: 400px) {
 
   .title {
-    /* position: absolute; */
-    /* width: 458px; */
     font-size: 32px;
     line-height: unset;
   }
@@ -207,16 +193,12 @@ body {
 
 .app-store-btn,
 .google-play-btn {
-  /* display: inline; */
   margin: 20px;
 }
 
 .app-store-btn {
-  /* position: absolute; */
   width: 138.44px;
   height: 46.28px;
-  /* left: 221px;
-  top: 531px; */
 }
 
 .app-store-btn img {
@@ -227,12 +209,8 @@ body {
 }
 
 .google-play-btn {
-  /* position: absolute; */
   width: 158.19px;
   height: 48.28px;
-
-  /* left: 381.81px;
-  top: 531px; */
 }
 
 .google-play-btn img {
@@ -249,11 +227,8 @@ body {
   }
 
   .app-store-btn {
-    /* position: absolute; */
     width: 138.44px;
     height: 46.28px;
-    /* left: 221px;
-  top: 531px; */
   }
 
   .app-store-btn img {
@@ -322,29 +297,16 @@ body {
 .home-img {
   /* position: absolute; */
   max-height: 470px;
-  /* Had to change to show full box shadow */
-  /* left: 995px;
-  right: 221px;
-  top: 908px; */
 }
 
 .cart-img {
   position: relative;
   max-height: 222px;
   bottom: 0;
-  /* Had to cut in half */
-  /* left: 221px;
-  right: 995px;
-  top: 1157px; */
 }
 
 .product-img {
-  /* position: absolute; */
   max-height: 222px;
-  /* Had to cut in half */
-  /* left: 737px;
-  right: 479px;
-  top: 1157px; */
 }
 
 
